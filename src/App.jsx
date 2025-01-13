@@ -1,7 +1,9 @@
+import Layout from "./component/Layout";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="overflow-x-hidden antialiased bg-[#111111] text-[#fafafa]">
+     <Layout />
+    </div>
   )
 }
